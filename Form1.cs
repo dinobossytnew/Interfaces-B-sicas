@@ -17,6 +17,24 @@ namespace CalculadoraApp
         {
             RealizarOperacion(calculadora.Sumar);
         }
+/* codigo no necesario se requiere ajustes en Operaciones para usar att: dinito
+
+private void btnRaizCuadrada_Click(object sender, EventArgs e)
+{
+    double numero;
+    if (double.TryParse(txtNumero1.Text, out numero))
+    {
+        Operaciones operaciones = new Operaciones();
+        double resultado = operaciones.RaizCuadrada(numero);
+        lblResultado.Text = resultado.ToString();
+    }
+    else
+    {
+        MessageBox.Show("Por favor, introduce un número válido.");
+    }
+}
+
+*/
 
         private void btnResta_Click(object sender, EventArgs e)
         {
